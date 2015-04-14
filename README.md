@@ -2,7 +2,7 @@
 
 There seems to be a bug with nesting specs2 examples in versions `2.4.2` and `3.4` on scala versions `2.10.5` and `2.11.6`.
 
-I would expect that the first example would fail, because there are nested examples in it that are wrong. The tests being ran are the same for each version pair.
+I would expect that the first example would fail, because there are nested examples in it that are wrong. The tests being ran are the same for each version pair. Please refer to the [specs2 issue](https://github.com/etorreborre/specs2/issues/360) for more details.
 
 ## Specs2 2.4.2
 
